@@ -1,7 +1,8 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 export default function Github() {
-  const { userid } = useParams('userid');
+  const { userid } = useParams();
+  console.log(userid);
   // const gitUser = useLoaderData();   /// loader 
   let user = 
   {
